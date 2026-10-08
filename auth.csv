@@ -1,0 +1,14 @@
+event_id,timestamp,source_ip,username,host,outcome
+auth-001,2026-10-01T10:00:00Z,192.0.2.10,alice,vpn-01,failure
+auth-002,2026-10-01T10:00:30Z,192.0.2.10,alice,vpn-01,failure
+auth-003,2026-10-01T10:01:00Z,192.0.2.10,alice,vpn-01,failure
+auth-004,2026-10-01T10:01:30Z,192.0.2.10,alice,vpn-01,failure
+auth-005,2026-10-01T10:02:00Z,192.0.2.10,alice,vpn-01,failure
+auth-006,2026-10-01T10:02:30Z,192.0.2.10,alice,vpn-01,success
+auth-007,2026-10-01T10:10:00Z,198.51.100.20,user1,vpn-01,failure
+auth-008,2026-10-01T10:10:20Z,198.51.100.20,user2,vpn-01,failure
+auth-009,2026-10-01T10:10:40Z,198.51.100.20,user3,vpn-01,failure
+auth-010,2026-10-01T10:11:00Z,198.51.100.20,user4,vpn-01,failure
+auth-011,2026-10-01T10:11:20Z,198.51.100.20,user5,vpn-01,failure
+auth-012,2026-10-01T10:30:00Z,203.0.113.5,bob,vpn-01,failure
+auth-013,2026-10-01T10:30:30Z,203.0.113.5,bob,vpn-01,success
